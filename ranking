@@ -1,0 +1,13 @@
+#import data file into R
+indata <- read.csv("indata3.csv")
+
+#rank entries according to factors
+library(dplyr)
+rank <- arrange(indata, desc(rgdp_ind), desc(hou_ind), desc(ba_emp_ind), desc(median_age_ind))
+
+#plot the hierarchical cluste
+d_rank <- dist(rank[, -1])
+hc_rank <- hclust(d_rank, method = "complete")
+dend <- as.dendrogram(hc_rank)
+dend <- rotate(dend, 1:100)
+plot(hc_rank)
