@@ -136,13 +136,14 @@ The Top 100 Pool
 99.	Mobile, AL
 100.	Fayetteville, NC
  
+
 Methodology
 
 The top 100 pool contains only Metropolitan Statistical Areas (MSAs) with populations of above 250,000 and per capita GDP levels of above $40,000. The top 25 cities were selected based on an index (scaled from 0 to 100) that captured a total of 18 variables within 5 groups, with weightings applied to each group as follows.
 
 Employment Prospect (Weight = 31.58%)
 1. Employment rate in the 20-24 age group
-2. Employment rate of working-age degree holders
+2. 2. Employment rate of working-age degree holders
 
 Economic Prospect (Weight = 21.05%)
 3. Per capita personal income
